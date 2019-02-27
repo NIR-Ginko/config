@@ -1,0 +1,17 @@
+[user]
+	email = nir@nir.org.ru
+	name = Igor \"NIR\" Chudov
+[core]
+	autocrlf = false
+	editor = nvim
+[sequence]
+	editor = nvim
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = true
+[alias]
+	lg = log --show-signature --color --graph --abbrev-commit --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+[merge]
+	verifySignatures = true
+
